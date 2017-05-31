@@ -1,16 +1,28 @@
 package com.zbb.jdk.loop;
 
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.Arrays;
+
 /**
- * ¶ş·Ö²éÕÒ·¨
+ * äºŒåˆ†æŸ¥æ‰¾
  * @Description:
  * @author zbb
- * @date 2017Äê5ÔÂ2ÈÕ ÏÂÎç4:16:10
+ * @date 2017å¹´5æœˆ31æ—¥ ä¸Šåˆ10:45:22
  */
 public class BinarySearch {
 	public static void main(String[] args) {
-		int[] arr = {1,8,15,30,35,40,46,54,70,98};
-		int i = binary(arr, 12);
-		System.out.println(i == -1 ? "´ËÊı²»ÔÚ´ËÊı×é¡£¡£¡£" : "´ËÊıÔÚÊı×éµÄ"+ (i+1) + "Î»");
+//		int[] arr = {1,8,15,30,35,40,46,54,70,98};
+//		int i = binary(arr, 12);
+//		System.out.println(i == -1 ? "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú´ï¿½ï¿½ï¿½ï¿½é¡£ï¿½ï¿½ï¿½ï¿½" : "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"+ (i+1) + "Î»");
+		try {
+			MessageDigest messageDigest = MessageDigest.getInstance("MD5");
+			messageDigest.update("123456789".getBytes());
+			byte[] bs = messageDigest.digest();
+			System.out.println(Arrays.toString(bs));
+		} catch (NoSuchAlgorithmException e) {
+			e.printStackTrace();
+		}
 	}
 	public static int binary(int[] arr,int num){
 		int start = 0;
