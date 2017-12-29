@@ -1,26 +1,38 @@
 package com.zbb.jdk.loop;
 
+
 /**
- * 递归菲波那切数列
- * @Description:
- * @author zbb
- * @date 2017年5月2日 下午4:16:27
- */
+* @Description: 鏂愭尝閭ｅ鏁板垪
+* @Author: zbb
+* @Date: 2017/12/28 18:09
+*/
 public class RecurrenceFibonacciDemo {
 	public static void main(String[] args) {
-		System.out.println(fibonacci(8));
+		System.out.println(fibonacci(20));
+		System.out.println(fibonacciLoop(20));
 	}
-	
+
+	// 閫掑綊
 	public static int fibonacci(int num){
-		int result = 0 ;
-		if(num < 1){
+		if(num < 0){
 			System.out.println("wu xiao can shu");
-			result = -1;
- 		}else if(num <= 2){
-			result = 1;
+			return -1;
+ 		}else if(num < 2){
+			return num;
 		}else{
-			result = fibonacci(num-1) + fibonacci(num-2);
+			return fibonacci(num-1) + fibonacci(num-2);
 		}
-		return result;
+	}
+
+	// 寰幆杩唬
+	public static int fibonacciLoop(int num){
+		int F1=0, F2=1, F3=0;
+		if(num <= 1) return num;
+		for (int i = 0; i < num-1; i++) {
+			 F3 = F1 + F2;
+			 F1 = F2;
+			 F2 = F3;
+		}
+		return F3;
 	}
 }
