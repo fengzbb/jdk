@@ -11,16 +11,16 @@ import java.util.List;
  */
 public class OptionalTest {
     public static void main(String[] args) {
-        List<Person> list = new ArrayList<>();
-        for(int i=1; i<6; i++){
-            Person person = new Person();
-            person.setAge(i);
-            person.setAddress("hehe");
-            person.setM(BigDecimal.valueOf(100+i));
-            list.add(person);
-        }
-        BigDecimal bigDecimal = list.stream().map(Person::getM).min(BigDecimal::compareTo).orElse(BigDecimal.ZERO);
-        System.out.println(bigDecimal);
+//        List<Person> list = new ArrayList<>();
+//        for(int i=1; i<6; i++){
+//            Person person = new Person();
+//            person.setAge(i);
+//            person.setAddress("hehe");
+//            person.setM(BigDecimal.valueOf(100+i));
+//            list.add(person);
+//        }
+//        BigDecimal bigDecimal = list.stream().map(Person::getM).min(BigDecimal::compareTo).orElse(BigDecimal.ZERO);
+//        System.out.println(bigDecimal);
 
     }
 }
