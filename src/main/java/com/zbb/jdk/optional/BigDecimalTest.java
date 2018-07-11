@@ -10,8 +10,8 @@ import java.math.BigDecimal;
 public class BigDecimalTest {
 
     public static void main(String[] args) {
-        BigDecimal a = BigDecimal.valueOf(10);
-        BigDecimal b = BigDecimal.valueOf(2);
+        BigDecimal a = BigDecimal.valueOf(1);
+        BigDecimal b = BigDecimal.valueOf(3);
         BigDecimal add = add(a, b);
         BigDecimal sub = sub(a, b);
         BigDecimal mul = mul(a, b);
@@ -57,6 +57,7 @@ public class BigDecimalTest {
      * @return
      */
     private static BigDecimal div(BigDecimal a, BigDecimal b){
-        return a.divide(b).setScale(2, BigDecimal.ROUND_HALF_UP);
+        return a.divide(b, 2, BigDecimal.ROUND_HALF_UP);
     }
+
 }
