@@ -1,4 +1,4 @@
-package com.zbb.jdk.demo8;
+package com.zbb.jdk.jdk8Test;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -15,11 +15,11 @@ public class MapLoop {
 
         // 循环，key,value
         map.forEach((k, v) -> {
-            doSomething(k,v);
+            doSomething(k, v);
         });
 
         // 循环map中的values
-        map.values().forEach(System.out :: println);
+        map.values().forEach(System.out::println);
 
         // Map.entrySet来遍历key,value, 大容量时推荐使用
         map.entrySet().forEach(entry -> {
@@ -40,5 +40,6 @@ public class MapLoop {
         });
     }
 
-    private static void doSomething(String k, String v) {}
+    private static void doSomething(String k, String v) {
+    }
 }
