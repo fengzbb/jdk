@@ -7,15 +7,14 @@ public class Teacher implements CallBack {
 	public Teacher(Student student){
 		this.student = student;
 	}
-	
-	//ÎÊÎÊÌâ
+
+	//é—®é—®é¢˜
 	public void askAnswer(){
 		student.resolving(this);
 	}
 
 	@Override
 	public void tellAnswer() {
-		System.out.println("´¦ÀíOK¡£¡£¡£¡£´ğ°¸ÊÇ222");
+		System.out.println("å¤„ç†OKã€‚ã€‚ã€‚ã€‚ç­”æ¡ˆæ˜¯222");
 	}
-
 }

@@ -4,8 +4,8 @@ public class Tom implements Student {
 
 	@Override
 	public void resolving(CallBack c) {
-		System.out.println("´¦ÀíÎÊÌâ£¬£¬£¬");
-		System.out.println("»Øµ÷ÎÊÌâ¡£¡£¡£¡£¡£¡£¡£¡£¡£¡£");
+		System.out.println("å¤„ç†é—®é¢˜ï¼Œï¼Œï¼Œ");
+		System.out.println("å›è°ƒé—®é¢˜ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚ã€‚");
 		c.tellAnswer();
 	}
 
