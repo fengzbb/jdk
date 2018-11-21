@@ -2,6 +2,6 @@ package com.zbb.jdk.callback;
 
 public interface CallBack {
 	
-	//»Ø´ğÎÊÌâ
+	// å¤„ç†é—®é¢˜
 	void tellAnswer();
 }
