@@ -13,6 +13,9 @@ import java.util.Optional;
 public class OptionalTest {
 
     public static void main(String[] args) {
+
+
+
         // First before jdk8
         Long id = 0L;
         firstBeforeJdk8(id);
