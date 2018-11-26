@@ -1,1 +1,17 @@
-/target/
+*.classpath
+*.project
+
+# IDE相关文件忽略（如下是IDEA的）
+*.idea
+*.iml
+
+# 编译文件忽略
+/*/target/*
+/*/bin/*
+
+# 本地环境相关文件忽略
+/*/.settings/*
+/.settings/
+
+# 自动生成配置文件忽略
+/*/__ConfigTemp/*
