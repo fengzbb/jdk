@@ -4,6 +4,7 @@
 # IDE相关文件忽略（如下是IDEA的）
 *.idea
 *.iml
+.idea
 
 # 编译文件忽略
 /*/target/*
