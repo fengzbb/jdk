@@ -3,40 +3,41 @@ package com.zbb.jdk;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-
 /**
  * 描述：
- * 单链表 实现
+ * 循环链表 实现
  *
  * @author bbzhou
  * @created 2019/3/15
  */
-public class LinkList {
+public class LoopLinkList {
 
-    private final static Logger logger = LoggerFactory.getLogger(LinkList.class);
+    /*private final static Logger logger = LoggerFactory.getLogger(LoopLinkList.class);
 
     // 头结点
-    private Node first = null;
+    private Node first;
 
     // 位置
     private int pos = 0;
 
+    public LoopLinkList() {
+        this.first = null;
+    }
+
     // 添加头节点
     public void addFirstNode(int data) {
-        Node node = new Node();
-        node.data = data;
+        Node node = new Node(data);
         node.next = first;
         first = node;
     }
 
     // 在任何位置添加数据
-    public void add(int index, Object data) {
-        Node addNode = new Node();
-        addNode.data = data;
+    public void add(int index, int data) {
+        Node addNode = new Node(data);
         Node current = first;
         Node previous = first;
         while (pos != index) {
-            if (current == null) {
+            if(current == null) {
                 logger.warn("linkAddWarn", "插入位置不存在，插入失败");
                 return;
             }
@@ -62,7 +63,7 @@ public class LinkList {
         while (index != pos && current != null) {
             previous = current;
             current = current.next;
-            if (current == null) {
+            if(current == null) {
                 logger.warn("deleteByPosWarn", "删除数据失败！");
                 pos = 0;
                 return null;
@@ -79,13 +80,13 @@ public class LinkList {
     }
 
     // 根据数据删除节点
-    public Node deleteByData(Object data) {
+    public Node deleteByData(int data) {
         Node current = first;
         Node previous = first;
-        while (current != null && !current.data.equals(data)) {
+        while (current != null && current.data != data) {
             previous = current;
             current = current.next;
-            if (current == null) {
+            if(current == null){
                 logger.warn("deleteByDataWarn", "删除失败！");
                 return null;
             }
@@ -111,43 +112,20 @@ public class LinkList {
     }
 
     // 根据数据找节点
-    public Node findByData(Object data) {
+    public Node findByData(int data) {
         Node current = first;
-        if (current == null) {
+        if(current == null) {
             logger.warn("findWarn", "查找数据失败！");
             return null;
         }
-        while (!current.data.equals(data)) {
+        while (current.data != data) {
             current = current.next;
-            if (current == null) {
+            if(current == null){
                 logger.warn("findWarn", "查找数据失败！");
                 return null;
             }
         }
         return current;
-    }
-
-    // size
-    public int size() {
-        int size = 0;
-        Node current = first;
-        while (current != null) {
-            size++;
-            current = current.next;
-        }
-        return size;
-    }
-
-    // 是否包含
-    public boolean isContain(Object data){
-        Node current = first;
-        while(current != null){
-            if(current.data.equals(data)){
-                return true;
-            }
-            current = current.next;
-        }
-        return false;
     }
 
     // 打印 链表数据
@@ -159,7 +137,7 @@ public class LinkList {
             current = current.next;
         }
         return sb.length() > 0 ? sb.toString().substring(0, sb.toString().lastIndexOf(",")) : "";
-    }
+    }*/
 
 }
 
