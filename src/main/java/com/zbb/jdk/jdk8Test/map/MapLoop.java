@@ -1,4 +1,4 @@
-package com.zbb.jdk.jdk8Test;
+package com.zbb.jdk.jdk8Test.map;
 
 import java.util.HashMap;
 import java.util.Map;
