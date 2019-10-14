@@ -1,7 +1,7 @@
 package com.zbb.jdk;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+//import org.slf4j.Logger;
+//import org.slf4j.LoggerFactory;
 
 
 /**
@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
  */
 public class LinkList {
 
-    private final static Logger logger = LoggerFactory.getLogger(LinkList.class);
+    //private final static Logger logger = LoggerFactory.getLogger(LinkList.class);
 
     // 头结点
     private Node first = null;
@@ -37,7 +37,7 @@ public class LinkList {
         Node previous = first;
         while (pos != index) {
             if (current == null) {
-                logger.warn("linkAddWarn", "插入位置不存在，插入失败");
+                //logger.warn("linkAddWarn", "插入位置不存在，插入失败");
                 return;
             }
             previous = current;
@@ -63,7 +63,7 @@ public class LinkList {
             previous = current;
             current = current.next;
             if (current == null) {
-                logger.warn("deleteByPosWarn", "删除数据失败！");
+                //logger.warn("deleteByPosWarn", "删除数据失败！");
                 pos = 0;
                 return null;
             }
@@ -86,7 +86,7 @@ public class LinkList {
             previous = current;
             current = current.next;
             if (current == null) {
-                logger.warn("deleteByDataWarn", "删除失败！");
+                //logger.warn("deleteByDataWarn", "删除失败！");
                 return null;
             }
 
@@ -114,13 +114,13 @@ public class LinkList {
     public Node findByData(Object data) {
         Node current = first;
         if (current == null) {
-            logger.warn("findWarn", "查找数据失败！");
+           // logger.warn("findWarn", "查找数据失败！");
             return null;
         }
         while (!current.data.equals(data)) {
             current = current.next;
             if (current == null) {
-                logger.warn("findWarn", "查找数据失败！");
+               // logger.warn("findWarn", "查找数据失败！");
                 return null;
             }
         }

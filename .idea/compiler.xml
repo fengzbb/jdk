@@ -9,8 +9,8 @@
         <module name="zbb-jdk" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="zbb-jdk" target="1.5" />
+    <bytecodeTargetLevel target="8">
+      <module name="zbb-jdk" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
