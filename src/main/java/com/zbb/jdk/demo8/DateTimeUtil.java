@@ -1,7 +1,5 @@
 package com.zbb.jdk.demo8;
 
-import org.omg.PortableInterceptor.LOCATION_FORWARD;
-
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
