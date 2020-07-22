@@ -1,12 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b2142093-22bd-4cbb-be4c-16498f3c9f9e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbb/jdk/datastructure/MyCircularQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbb/jdk/util/Assert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbb/jdk/io/bio/BIOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbb/jdk/io/bio/SerClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbb/jdk/io/bio/SerServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbb/jdk/io/handler/BioServerThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbb/jdk/io/handler/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbb/jdk/io/handler/RequestHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbb/jdk/io/netty/NioServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbb/jdk/io/serializable/ISerializable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbb/jdk/io/serializable/JdkSerializable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbb/jdk/io/serializable/SerializableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbb/jdk/io/serializable/XStreamSerializable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbb/jdk/jdk8Test/stream/IntStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zbb/jdk/thread/ThreadDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zbb/jdk/comm/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zbb/jdk/comm/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zbb/jdk/util/Assert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zbb/jdk/util/Assert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/zbb/jdk/comm/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/zbb/jdk/comm/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zbb-jdk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zbb-jdk.iml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,52 +53,31 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Queue</find>
-      <find>remove</find>
-      <find>interrupt</find>
-      <find>Node1</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>Node</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="F:/Program Files/apache-maven-3.5.4" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Program Files/apache-maven-3.5.4" />
         <option name="userSettingsFile" value="F:\Program Files\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1WRKX8JLRsaCv6EPfdAhBYLW79U" />
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Android</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value="h&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/HashMap.java&#10;SkipList&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/concurrent/ConcurrentSkipListSet.java&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap&#10;Thread&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Thread.java&#10;workspace.xml&#9;FILE&#9;file://E:/projects/common-base/newjdk/jdk/.idea/workspace.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -74,7 +86,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -84,19 +96,7 @@
       <recent name="E:\projects\common-base\newjdk\jdk\src\main\java\com\zbb\jdk" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.ArrayDemo">
+  <component name="RunManager" selected="Application.SerializableDemo">
     <configuration default="true" type="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -105,13 +105,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zbb.jdk.datastructure.ArrayDemo" />
+    <configuration name="BioServerThreadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zbb.jdk.io.handler.BioServerThreadPool" />
       <module name="zbb-jdk" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zbb.jdk.datastructure.*" />
+          <option name="PATTERN" value="com.zbb.jdk.io.handler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,13 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapPutDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zbb.jdk.jdk8Test.map.MapPutDemo" />
+    <configuration name="NioServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zbb.jdk.io.netty.NioServer" />
       <module name="zbb-jdk" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zbb.jdk.jdk8Test.map.*" />
+          <option name="PATTERN" value="com.zbb.jdk.io.netty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,14 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.zbb.jdk.datastructure.MyArrayDemo" />
+    <configuration name="SerClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zbb.jdk.io.bio.SerClient" />
       <module name="zbb-jdk" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zbb.jdk.datastructure.*" />
+          <option name="PATTERN" value="com.zbb.jdk.io.bio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,13 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyCircularQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zbb.jdk.datastructure.MyCircularQueue" />
+    <configuration name="SerServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zbb.jdk.io.bio.SerServer" />
       <module name="zbb-jdk" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zbb.jdk.datastructure.*" />
+          <option name="PATTERN" value="com.zbb.jdk.io.bio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,13 +161,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLinkDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zbb.jdk.datastructure.MyLinkDemo" />
+    <configuration name="SerializableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zbb.jdk.io.serializable.SerializableDemo" />
       <module name="zbb-jdk" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zbb.jdk.datastructure.*" />
+          <option name="PATTERN" value="com.zbb.jdk.io.serializable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,19 +209,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MapPutDemo" />
-      <item itemvalue="Application.MyArrayDemo" />
-      <item itemvalue="Application.MyLinkDemo" />
-      <item itemvalue="Application.ArrayDemo" />
-      <item itemvalue="Application.MyCircularQueue" />
+      <item itemvalue="Application.BioServerThreadPool" />
+      <item itemvalue="Application.NioServer" />
+      <item itemvalue="Application.SerServer" />
+      <item itemvalue="Application.SerClient" />
+      <item itemvalue="Application.SerializableDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayDemo" />
-        <item itemvalue="Application.MyCircularQueue" />
-        <item itemvalue="Application.MyLinkDemo" />
-        <item itemvalue="Application.MyArrayDemo" />
-        <item itemvalue="Application.MapPutDemo" />
+        <item itemvalue="Application.SerializableDemo" />
+        <item itemvalue="Application.SerClient" />
+        <item itemvalue="Application.SerServer" />
+        <item itemvalue="Application.NioServer" />
+        <item itemvalue="Application.BioServerThreadPool" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +261,16 @@
       <workItem from="1583469565704" duration="2000" />
       <workItem from="1583575278085" duration="3167000" />
       <workItem from="1584468460804" duration="216000" />
-      <workItem from="1587137330269" duration="937000" />
+      <workItem from="1587137330269" duration="1273000" />
+      <workItem from="1587474784528" duration="7159000" />
+      <workItem from="1588866551193" duration="1778000" />
+      <workItem from="1592847143196" duration="760000" />
+      <workItem from="1592847913475" duration="634000" />
+      <workItem from="1592848557190" duration="357000" />
+      <workItem from="1592848931070" duration="11000" />
+      <workItem from="1592848977775" duration="2241000" />
+      <workItem from="1592919567203" duration="6642000" />
+      <workItem from="1595249599830" duration="5366000" />
     </task>
     <servers />
   </component>
@@ -276,7 +284,7 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -293,13 +301,66 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1595341104239">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1595341104239" />
+    <state width="1877" height="262" key="GridCell.Tab.0.bottom" timestamp="1595341667126">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595341667126" />
+    <state width="1877" height="262" key="GridCell.Tab.0.center" timestamp="1595341667126">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="262" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595341667126" />
+    <state width="1877" height="262" key="GridCell.Tab.0.left" timestamp="1595341667126">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="262" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595341667126" />
+    <state width="1877" height="262" key="GridCell.Tab.0.right" timestamp="1595341667126">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="262" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595341667126" />
+    <state width="1340" height="328" key="GridCell.Tab.1.bottom" timestamp="1592851178649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="328" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592851178649" />
+    <state width="1340" height="328" key="GridCell.Tab.1.center" timestamp="1592851178649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="328" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592851178649" />
+    <state width="1340" height="328" key="GridCell.Tab.1.left" timestamp="1592851178649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="328" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592851178649" />
+    <state width="1340" height="328" key="GridCell.Tab.1.right" timestamp="1592851178649">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="328" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592851178649" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1595341198380">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595341198380" />
+    <state x="663" y="189" key="SettingsEditor" timestamp="1595341660021">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="663" y="189" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1595341660021" />
+    <state x="662" y="74" width="596" height="891" key="find.popup" timestamp="1595341289653">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="74" width="596" height="891" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595341289653" />
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1595341291760">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1595341291760" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -323,6 +384,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/zbb/jdk/datastructure/MyLinkDemo.java</url>
           <line>86</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zbb/jdk/jdk8Test/stream/IntStreamTest.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/zbb/jdk/jdk8Test/stream/IntStreamTest.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

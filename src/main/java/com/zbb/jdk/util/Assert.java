@@ -33,4 +33,12 @@ public class Assert {
     public static <T, E> void assertEquals(T t, E e){
         assert  t == e : "错误,值不相等";
     }
+
+    /**
+     * is not null
+     * @param object
+     */
+    public static void assertIsNotNull(Object object){
+        assert object != null : "错误，对象为null";
+    }
 }
